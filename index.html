@@ -2,25 +2,38 @@
 <html lang="en">
   <head>
     <style> 
-
+        
+        .centertxt {
+            position: absolute;
+            top: 35%;
+            width: 100%;
+            text-align: center;
+            font-size: 18px;
+         }
+         
+        img { 
+          display : block;
+          margin-left: auto;
+        
+        
+         }
+         
+         
         #div1 {
-            background-color: rgb(48, 48, 48) ;
-            width : 50%;
-            height: 900px;
+            background-color: rgb(238, 215, 215) ;
+            width : 60%;
+            height:min-content ;
             float : left;
-            padding-right: 20px;
-    
-
+            padding-right: 20px;      
          }
         #div2 {
-            background-color: rgb(48, 48, 48) ;
-            width : 50% ;
-            height: 900px;
-            float : right
-
-
+            background-color: rgb(148, 35, 35) ;
+            width : 35% ;
+            height: 800px;
+            float : right;
+            
          }
-
+         
         h1 {text-align: right;}
         p {text-align: right;}
         body {font-family: Garamond, serif;}
@@ -29,19 +42,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Begins</title>
+    <title>Portfolio</title>
   </head>
 <body style="background-color:rgb(48, 48, 48);"> 
-    <div 
+    <div
+    class="centertxt"
     id = "div1" >  
     <h1 style="color:rgb(151, 151, 151)">Shoaib Rahman</h1>
     <hr>
+    <br>
     <p style="color:rgb(151, 151, 151)">A noob CSE student from BRAC University trying to learn how to make basic website just only using HTML.</p>
+    <br>
     <hr>
     <p style="color:rgb(151, 151, 151)">Contact</p>
 
     </div>
-    <div id ="div2"></div>
+    <div 
+    class="centerimg"
+    id ="div2">
+      <img  src="shoaibwho.jpg" alt="Shoaib Rahman" width="" height="800" >
+    </div>
 
     
 </body>
